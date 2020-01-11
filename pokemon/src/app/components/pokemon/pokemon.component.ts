@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PokemonComponent implements OnInit {
 
+  imageRelLink: string;
+  id: number;
+  name: string;
+  type: string[];
+  stats: Array<number>;
+
   constructor() { }
 
   ngOnInit() {
